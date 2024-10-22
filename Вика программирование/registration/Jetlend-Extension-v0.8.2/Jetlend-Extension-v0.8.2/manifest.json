@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "version": "0.8.2",
+  "action": {
+    "default_popup": "html/popup.html"
+  },
+  "icons": {
+    "16": "./img/icons/icon16.png",
+    "32": "./img/icons/icon32.png",
+    "48": "./img/icons/icon48.png"
+  },
+  "permissions": [
+    "storage", "declarativeNetRequest", "activeTab", "tabs", "notifications", "declarativeContent"
+
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+   "background": {
+    "service_worker": "js/background.js"
+  }, 
+  "commands": {
+    "open_extension": {
+      "suggested_key": {
+        "default": "Alt+J",
+        "mac": "Alt+J",
+        "linux": "Alt+J"
+      },
+      "description": "Открытие Расширения"
+    }
+  },
+  "name": "Расширение JetLend",
+  "description": "Позволяет быстро распределить средства, убирает НПД из статистики, показывает чистую доходность, считает XIRR.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/global/variables.js", "js/global/functions.js", "js/content.js"],
+      "css": ["css/vars.css"]
+    }
+  ], 
+  "web_accessible_resources": [  {
+    "resources": ["css/zero.min.css", "css/style.css"],
+    "matches": ["<all_urls>"]
+  }]
+  
+}
