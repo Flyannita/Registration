@@ -1,0 +1,89 @@
+body{
+  background: #d35412;
+  }
+#regist{
+  background: #ff8b42;
+  width: 51%;
+  margin: 0% auto;
+  padding: 0px 72px;
+  text-align: center ;
+ }
+ p{ 
+   text-align: center ;
+   margin: 0% 24% 5% 10%;
+   font-size: 20px;
+ }
+ 
+ #buut{
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #e37635;
+}
+
+#buut:hover {
+   box-shadow: #b1531b 0 0px 0px 40px inset;
+}
+  
+ 
+ input{
+   width: auto;
+   margin: 0% auto;
+   border: none;
+   border-bottom: 1px dashed #e67d37;
+   display: block;
+   
+ }
+#enter{
+  display: none;
+}
+#lololoshka{
+  display: none;
+}
+#regist{
+  display: block;
+}
+.href{
+  border: none;
+  background-color: #ff8b42;
+  color: #88E7E7;
+  font-size: 14px;
+  font-family: arial black;
+}
+ .href:hover{
+   color:#049595;
+ }
+#fmr{
+  background: #ff8b42;
+}
+#ButLoshka{
+  background-color: #ff8b42;
+  color: #000000;
+}
+p {
+  text-align: center ;
+  font-size: 18px;
+  font-family: arial black;
+}
+#JDH{
+  background: #e9621c;
+}
+h1 {
+  text-align: center ;
+  font-size: 32px;
+  font-family: arial black;
+}
+#JDHh1 {
+  font-size: 38px;
+  font-family: arial black;
+}
+#but{
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #e37635;
+}
+
+#but:hover {
+   box-shadow: #b1531b 0 0px 0px 40px inset;
+}
