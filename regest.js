@@ -88,7 +88,7 @@ console.log(dataget.error)
 console.log(dataget.message)
 }
 else{
-if (dataget==j){
+if (dataget.password==j){
 v = document.getElementById("enter")
 e = document.getElementById("lololoshka")
 v.style.display = "none"
