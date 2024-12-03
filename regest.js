@@ -77,7 +77,9 @@ r = new FormData(f2)
 i = r.get("emai")
 j = r.get("pass")
 if (l && o) {
+console.log(i)
 https = "http://127.0.0.1:5000/enter?email="+i
+console.log(https)
 get_response = await fetch(https)
 dataget = await get_response.json()
 if (dataget.error){
