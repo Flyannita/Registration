@@ -74,7 +74,7 @@ f2 = document.getElementById("fmr")
 l = chepass(f2,"pas")
 o = chemail("emai",f2)
 r = new FormData(f2)
-i = r.get("emai")
+i = r.get("mail")
 j = r.get("pass")
 if (l && o) {
 console.log(i)
