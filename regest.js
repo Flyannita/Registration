@@ -72,7 +72,7 @@ console.error("ошибка сети")
 async function enter(){
 f2 = document.getElementById("fmr")
 l = chepass(f2,"pas")
-o = chemail("mail",f2)
+o = chemail("emai",f2)
 r = new FormData(f2)
 i = r.get("emai")
 j = r.get("pass")
