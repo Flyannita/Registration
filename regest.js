@@ -82,6 +82,7 @@ get_response = await fetch(https)
 dataget = await get_response.json()
 if (dataget.error){
 alert("Такой почты не существует")
+console.log(dataget.error)
 }
 else{
 if (dataget==j){
