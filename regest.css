@@ -10,8 +10,9 @@ body{
  }
  p{ 
    text-align: center ;
-   margin: 0% 24% 5% 10%;
    font-size: 20px;
+   margin: 0% auto;
+   font-family: arial black;
  }
  
  #buut{
@@ -43,6 +44,16 @@ body{
 #regist{
   display: block;
 }
+#ForgotPassword{
+  display: none;
+}
+#ForgotPassword{
+  background: #ff8b42;
+  width: 51%;
+  margin: 0% auto;
+  padding: 0px 72px;
+  text-align: center ;
+}
 .href{
   border: none;
   background-color: #ff8b42;
@@ -55,16 +66,16 @@ body{
  }
 #fmr{
   background: #ff8b42;
+  width: 51%;
+  margin: 0% auto;
+  padding: 0px 72px;
+  text-align: center
 }
 #ButLoshka{
   background-color: #ff8b42;
   color: #000000;
 }
-p {
-  text-align: center ;
-  font-size: 18px;
-  font-family: arial black;
-}
+
 #JDH{
   background: #e9621c;
 }
@@ -85,5 +96,14 @@ h1 {
 }
 
 #but:hover {
+   box-shadow: #b1531b 0 0px 0px 40px inset;
+}
+#buttonForgot{
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #e37635;
+}
+#buttonForgot:hover {
    box-shadow: #b1531b 0 0px 0px 40px inset;
 }
