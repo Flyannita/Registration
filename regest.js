@@ -58,6 +58,7 @@ v.style.display = "none"
 e.style.display = "block"
 }
 else{
+alert("Такая почта уже существует, переводим вас на страницу входа")
 console.error("почта существует")
 enr()
 }
